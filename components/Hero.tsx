@@ -81,7 +81,7 @@ export default function Hero() {
                                 transition={{ delay: 0.8 }}
                                 className="absolute bottom-6 -left-2 md:bottom-8 md:-left-2 bg-background/90 backdrop-blur shadow-lg rounded-xl p-2 md:p-3 border border-secondary/20"
                             >
-                                <span className="font-semibold text-xs md:text-sm text-primary">🎨 UI/UX Designer</span>
+                                <span className="font-semibold text-xs md:text-sm text-primary">🎨 Developer</span>
                             </motion.div>
                         </div>
                     </motion.div>
