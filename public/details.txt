@@ -1,0 +1,108 @@
+Jathursika Velummayilum
+Software Engineer
+jathukirubajathu@gmail.com 
+LinkedIn
+Profile
++94 76 005 2687
+GitHub
+Software Engineer with seven months of hands-on experience in Full Stack development, focusing on building
+scalable APIs, implementing authentication systems, and integrating database-driven features. Currently
+learning DevOps practices to enhance deployment automation and CI/CD workflows. I look forward to
+applying my skills to real-world problems and continuously improving.
+Experience
+Internship
+D PInfotech Private Ltd.
+June 2025– Present
+• Developing, maintaining, and debugging modules for a .NET-based ERP system,
+ensuring seamless integration with existing business workflows.
+• Contributing to a PHP-based MVC web application using the CodeIgniter
+framework by implementing new features, optimizing performance, and fixing bugs
+to improve user experience.
+• Developing full-stack web applications using the Laravel framework with Blade
+templates and AJAX for responsive, dynamic user experiences.
+• Building a Python desktop application for automating routine tasks and stream
+lining business processes, enhancing efficiency for internal teams.
+• Gaining hands-on experience in full-stack development, debugging techniques, and
+best practices in agile teamwork and project management.
+Education
+Bachelor of Science Honours in Computer Science, University of Jaffna
+CGPA: 3.07 (credit 68/120)
+Certifications
+2021- Present
+Certificate of participation: UoJCoders V3.0. University of Jaffna.
+30 Days Machine Learning. E-Learning, NoviTech. NT B1ML167
+Honours Diploma in Computer Application. Ramanathapuram, India.
+Certificate in Student Computer Package. Vethalai, Ramanathapuram, India.
+Projects
+2024
+2024
+2016
+2011
+Transformer-based skin lesion classification
+Undergraduate Research Project.
+• I am working on Transformer-based skin lession classification, leveraging Vision
+Transformers to enhance accuracy in medical image analysis.
+• Tools : PyTorch, Google Colab, Python.
+E-Commerce Website with responsive Chatbot
+• I am currently building an E-Commerce website with a responsive chatbot.
+• Tools: React.js, Node.js, Python, Flask, MySQL. Github 
+IEEE Computer Society Website
+• We developed the IEEE Computer Society website, designing an interactive and
+user friendly platform to enhance engagement and accessibility.
+2025- Present
+2025
+2025
+• Tools: React.js, Contentful CMS. Github 
+2025
+• Website: https://jathursi.github.io/Cs-landing-website/
+IIS City Campus Website
+• I developed and maintaining the IIS City Campus website, ensuring smooth
+functionality and an improved user experience.
+• Tools: React.js, Firebase, Contentful CMS Github 
+• Website: https://jathursi.github.io/IIS City Campus/
+Vehicle Management (E-job Card) Website
+Undergraduate Team Software Development- Team Lead
+• I led the development of a Vehicle Management (e-job card) project, creating a
+system to Manage vehicle services, maintenance records, and job cards, improving
+operational efficiency.
+• Tools: React.js, Node.js, MySQL Github 
+Languages
+2024
+Tamil: Native Language
+English: Professional Level
+Skills
+Programming Languages: Python, JavaScript, Java, C#, PHP
+Web Development: React.js, Node.js, Next.js, Flutter, .NET, Laravel
+Databases: MySQL, MariaDB, MongoDB, Sequelize ORM, Oracle
+Tools & IDEs: Adobe Photoshop, Visual Studio, MATLAB, IntelliJ IDEA, Jira
+Platforms: Windows, Linux
+Attended Conference and Workshop
+Google exploreCSR Symposium- CyberShield: Strengthening Digital
+Security and Awareness, Department of Computer Science,University of Jaffna
+Workshop on Mastering Deep Learning with Hands-On, IEEE Computer
+Society Student Branch Chapter, University of Jaffna
+Google exploreCSR Summer School on Machine Intelligence (GeSSoMI),
+Department of Computer Science, University of Jaffna, in collaboration with the
+University of Melbourne
+GeSSoMI-2024: Cyber security Bootcamp, IEEE WIE Student Branch Affinity
+Group of the University of Jaffna, University of Jaffna
+Sri Lanka Student Workshop on Computer Science (SL-SWCS’23),
+Department of Computer Science,University of Jaffna
+Referees
+Oct 2024
+Aug 2024
+Jun 2024
+Jun 2024
+Dec 2023
+Prof. M. Siyamalan
+Professor,
+Department of Computer Science,
+Faculty of Science,
+University of Jaffna.
++94 76 706 4194
+siyam@univ.jfn.ac.lk
+Mr. A V J Mahesh
+Team Lead,
+DP Infotech (pvt) ltd,
++94 77 962 0358
+Janakama@dpinfotech.lk

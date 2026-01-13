@@ -3,7 +3,7 @@ const fs = require('fs');
 const pdf = require('pdf-parse');
 const path = require('path');
 
-const pdfPath = path.join(__dirname, 'public/Jathursika (1).pdf');
+const pdfPath = path.join(__dirname, '../Jathursika (1).pdf');
 
 if (!fs.existsSync(pdfPath)) {
     console.error('PDF file not found at:', pdfPath);

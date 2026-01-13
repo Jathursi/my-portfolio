@@ -1,26 +1,86 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --radius: var(--radius);
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* #F7E8EC */
+    --background: #F7E8EC;
+    /* #1A0B12 */
+    --foreground: #1A0B12;
+    /* #732C3F */
+    --primary: #732C3F;
+    --primary-foreground: #F7E8EC;
+    /* #C57C8A */
+    --secondary: #C57C8A;
+    --secondary-foreground: #1A0B12;
+
+    --accent: #E5D0D6;
+    /* Slightly darker than bg */
+    --accent-foreground: #732C3F;
+
+    --muted: #EAD8DE;
+    --muted-foreground: #732C3F;
+
+    --radius: 0.75rem;
+  }
+
+  /* 
+  .dark {
+    --background: #1A0B12;
+    --foreground: #F7E8EC;
+    --primary: #C57C8A;
+    --primary-foreground: #1A0B12;
+    --secondary: #732C3F;
+    --secondary-foreground: #F7E8EC;
+    --accent: #2A1B22;
+    --accent-foreground: #C57C8A;
+    --muted: #2A1B22;
+    --muted-foreground: #C57C8A;
+  }
+  */
+}
+
+@layer base {
+  * {
+    @apply border-[length:--border-width] border-gray-200 dark:border-gray-800;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary transition-colors duration-300 overflow-x-hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
