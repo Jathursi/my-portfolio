@@ -39,7 +39,7 @@ export default function Experience() {
                             <h3 className="text-2xl font-bold">Education</h3>
                         </div>
 
-                        <div className="relative pl-8 border-l-2 border-secondary/30 space-y-10">
+                        <div className="relative pl-8 border-l-2 border-secondary/30 space-y-10 pb-5">
                             <div className="relative">
                                 <div className="absolute -left-[41px] top-0.5 w-4 h-4 rounded-full bg-primary border-4 border-background" />
                                 <span className="text-sm text-primary font-medium mb-1 block">2021 — Present</span>
@@ -47,6 +47,17 @@ export default function Experience() {
                                 <h5 className="text-lg text-muted-foreground mb-2">University of Jaffna</h5>
                                 <p className="text-muted-foreground leading-relaxed">
                                     CGPA: 3.07. Studying core computer science concepts with focus on software development, databases, and machine learning.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="relative pl-8 border-l-2 border-secondary/30 space-y-10 ">
+                            <div className="relative">
+                                <div className="absolute -left-[41px] top-0.5 w-4 h-4 rounded-full bg-primary border-4 border-background" />
+                                <span className="text-sm text-primary font-medium mb-1 block">January 2026 - Present</span>
+                                <h4 className="text-xl font-bold text-foreground">DevOps Master Program</h4>
+                                <h5 className="text-lg text-muted-foreground mb-2">NerXperts (PVT) LTD</h5>
+                                <p className="text-muted-foreground leading-relaxed">
+                                    Learning and mastering DevOps concepts, including CI/CD pipelines, containerization, orchestration, cloud computing, and automation.
                                 </p>
                             </div>
                         </div>
