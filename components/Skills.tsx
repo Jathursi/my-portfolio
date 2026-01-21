@@ -3,10 +3,14 @@
 import { motion } from 'framer-motion';
 
 const skills = [
-    { category: "Web Development", items: ["React.js", "Next.js", "Node.js", "Laravel", "ASP.NET", "Flutter"] },
-    { category: "Languages", items: ["Python", "JavaScript", "Java", "C#", "PHP"] },
+    { category: "Web Development", items: ["React.js", "Node.js", "Next.js", "Flutter", ".NET", "Laravel"] },
+    { category: "Programming Languages", items: ["Python", "JavaScript", "Java", "C#", "PHP"] },
     { category: "Databases", items: ["MySQL", "MariaDB", "MongoDB", "Oracle", "Sequelize ORM"] },
-    { category: "Tools & DevOps", items: ["Git", "Docker", "VS Studio", "Jira", "Photoshop", "CI/CD"] },
+    { category: "Tools & DevOps", items: ["Git", "GitHub", "Docker", "Kubernetes", "Postman", "Jenkins", "Terraform", "Ansible"] },
+    { category: "AI/ML Tools", items: ["PyTorch", "Hugging Face", "Google Colab"] },
+    { category: "IDEs", items: ["Visual Studio", "IntelliJ IDEA", "MATLAB", "Cursor"] },
+    { category: "Cloud", items: ["AWS"] },
+    { category: "Platforms", items: ["Windows", "Linux"] },
 ];
 
 export default function Skills() {
