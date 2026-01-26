@@ -176,6 +176,18 @@ export default function Experience() {
                         <div className="relative pl-8 border-l-2 border-secondary/30 space-y-8">
                             <div className="relative">
                                 <div className="absolute -left-[41px] top-0 w-4 h-4 rounded-full bg-secondary border-4 border-background" />
+                                <span className="text-xs text-muted-foreground mb-1 block">Jan 2026</span>
+                                <h4 className="text-lg font-bold text-foreground">AI Essentials for Emerging IT Careees</h4>
+                                <p className="text-sm text-muted-foreground mb-2">IDMNC International<button
+                                    onClick={() => setSelectedCert('/cert-ai.jpeg')}
+                                    className="inline-flex items-center gap-1.5 px-3 mx-4 py-1 mt-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-[10px] font-medium hover:bg-primary/10 transition-colors cursor-pointer"
+                                >
+                                    View Certificate
+                                    <ExternalLink size={10} />
+                                </button></p>
+                            </div>
+                            <div className="relative">
+                                <div className="absolute -left-[41px] top-0 w-4 h-4 rounded-full bg-secondary border-4 border-background" />
                                 <span className="text-xs text-muted-foreground mb-1 block">March 2025</span>
                                 <h4 className="text-lg font-bold text-foreground">Python (Basic) Certificate</h4>
                                 <p className="text-sm text-muted-foreground mb-2">HackerRank <button
