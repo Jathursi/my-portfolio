@@ -41,11 +41,11 @@ export default function About() {
                             <div className="p-4 bg-background rounded-lg border border-primary/10 shadow-sm">
                                 <h4 className="font-bold text-2xl text-primary mb-1">Degree</h4>
                                 <p className="text-sm text-muted-foreground">BSc Hons Computer Science</p>
-                                <p className="text-xs text-muted-foreground">CGPA: 3.07</p>
+                                <p className="text-xs text-muted-foreground">CGPA: 3.00</p>
                             </div>
                             <div className="p-4 bg-background rounded-lg border border-primary/10 shadow-sm">
                                 <h4 className="font-bold text-2xl text-primary mb-1">Experience</h4>
-                                <p className="text-sm text-muted-foreground">7+ Months</p>
+                                <p className="text-sm text-muted-foreground">8+ Months</p>
                             </div>
                         </div>
                     </motion.div>
@@ -77,7 +77,7 @@ function Collage() {
                 const allImages = data.images || [];
                 // Randomly shuffle and pick up to 5
                 const shuffled = allImages.sort(() => 0.5 - Math.random());
-                setImages(shuffled.slice(0,4));
+                setImages(shuffled.slice(0, 4));
             })
             .catch(err => console.error('Failed to load images', err));
     }, []);
