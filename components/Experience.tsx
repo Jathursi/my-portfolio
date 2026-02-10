@@ -46,7 +46,7 @@ export default function Experience() {
                                 <h4 className="text-xl font-bold text-foreground">B.Sc. (Hons) in Computer Science</h4>
                                 <h5 className="text-lg text-muted-foreground mb-2">University of Jaffna</h5>
                                 <p className="text-muted-foreground leading-relaxed">
-                                    CGPA: 3.07. Studying core computer science concepts with focus on software development, databases, and machine learning.
+                                    CGPA: 3.00 (credit 108/120). Studying core computer science concepts with focus on software development, databases, and machine learning.
                                 </p>
                             </div>
                         </div>
